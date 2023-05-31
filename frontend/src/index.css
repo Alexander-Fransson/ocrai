@@ -1,0 +1,169 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('https://fonts.gstatic.com/s/opensans/v23/mem8YaGs126MiZpBA-UFVZ0e.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD-w.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHjxAwXjeu.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  src: url('https://fonts.gstatic.com/s/opensanscondensed/v14/z7NFdQDnbTkabZAIOl9il_O6KJv7Q6AN6ZwKsMub2n0.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url('https://fonts.gstatic.com/s/merriweather/v27/u-440qyriQwlOrhSvowK_l5-eR9xrVvfLymy7heLG3A.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('https://fonts.gstatic.com/s/oswald/v36/TK3iWkUHHAIjg75-sh0T.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('https://fonts.gstatic.com/s/playfairdisplay/v31/nuFiD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_qIa32s.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('https://fonts.gstatic.com/s/sourcesanspro/v15/ODelI1aHBYDBqgeIAH2zlNM.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Alex Brush';
+  src: url('https://fonts.gstatic.com/s/alexbrush/v12/SZc83FzrJKuqFbwMKk6EtUI.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('https://fonts.gstatic.com/s/dancingscript/v18/If2RXTr6YS-zF4S-kcSWSVi_szLgiuE.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Great Vibes';
+  src: url('https://fonts.gstatic.com/s/greatvibes/v11/RWmMoKWR9v4ksMfaWd_JN-XC.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Handlee';
+  src: url('https://fonts.gstatic.com/s/handlee/v10/-F6xfjBsISg9aMakDmo16S0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Indie Flower';
+  src: url('https://fonts.gstatic.com/s/indieflower/v12/m8JVjfNVeKWVnh3QMuKkFcZVaUuH.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kaushan Script';
+  src: url('https://fonts.gstatic.com/s/kaushanscript/v10/vm8vdRfvXFLG3OLnsO15WYS5DF7_.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lobster';
+  src: url('https://fonts.gstatic.com/s/lobster/v27/neILzCirqoswsqX9_oU.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url('https://fonts.gstatic.com/s/pacifico/v17/FwZY7-Qmy14u9lezJ-6H6Mk.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Parisienne';
+  src: url('https://fonts.gstatic.com/s/parisienne/v8/E21i_d3kivvAkxhLEVZpcyku.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Satisfy';
+  src: url('https://fonts.gstatic.com/s/satisfy/v11/rP2Hp2yn6lkG50LoOZQ.ttf') format('truetype');
+}
